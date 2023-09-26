@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="app.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="display-1 text-center text-primary">Bootstrap</h1>
+    <h2 class="display-4">Buttons</h2>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary btn-sm">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger" disabled>Danger</button>
+    <button type="button" class="btn btn-warning btn-lg">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-link">Link</button>
+    <button type="button" class="btn btn-outline-primary btn-lg">
+      Primary
+    </button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-light">Light</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <h3>Badge</h3>
+    <button type="button" class="btn btn-secondary">
+      Notifications <span class="badge badge-light badge-pill">100</span>
+      <span class="sr-only">unread messages</span>
+    </button>
+    <h3>Button Group</h3>
+    <div class="btn-group">
+      <button>left</button>
+      <button>mid</button>
+      <button>right</button>
+    </div>
+    <h3>Alerts</h3>
+    <div class="alert alert-danger">
+      <h4 class="alert-heading">DANGER ZONE</h4>
+      YOU ARE IN DANGER!
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-square"
+          viewBox="0 0 16 16">
+          <path
+            d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+          <path
+            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+        <!-- <span aria-hidden="true">&times;</span> -->
+      </button>
+      Alert!
+    </div>
+    <h2 class="display-4">Typography</h2>
+    <p class="border">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, error
+      sit officia molestiae ducimus, excepturi ex accusantium quo
+      reprehenderit eius repellendus velit modi debitis? Unde ex possimus
+      laborum aperiam sunt.
+    </p>
+    <p class="lead">
+      This is a lead paragraph. It stands out from regular paragraphs.
+    </p>
+    <blockquote class="blockquote text-right btn-light">
+      <p class="mb-0">
+        A well-known quote, contained in a blockquote element.
+      </p>
+      <footer class="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="container">
+    <h2 class="display-3 text-center">Grid</h2>
+    <div class="row">
+      <div class="col-6 bg-primary">six units</div>
+      <div class="col-6 bg-secondary">six units</div>
+    </div>
+    <div class="row">
+      <div class="col-4 bg-warning">four units</div>
+      <div class="col-4 bg-success">four units</div>
+      <div class="col-4 bg-danger">four units</div>
+    </div>
+    <div class="row">
+      <div class="col bg-danger">?</div>
+      <div class="col-3 bg-primary">three units</div>
+      <div class="col bg-secondary">?</div>
+      <div class="col bg-warning">?</div>
+      <div class="col bg-success">?</div>
+      <div class="col badge-light">?</div>
+      <div class="col badge-info">?</div>
+    </div>
+    <h3 class="display-4 text-center">Responsive Grid</h2>
+      <div class="row align-items-start">
+        <div class="col-sm-3 col-md-6 col-xl-3 bg-warning">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Tenetur hic ad animi voluptatum quos delectus perferendis quae voluptatem quibusdam dolorem aliquam asperiores
+          ullam dicta, iusto at dolor! Necessitatibus, consequatur repellat!</div>
+        <div class="col-sm-3 col-md-6 col-xl-3 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Aliquam laboriosam, maxime atque sapiente molestiae architecto adipisci temporibus, modi aspernatur amet
+          excepturi repellendus mollitia voluptatibus laudantium fugiat. Modi minima perspiciatis sapiente.</div>
+
+        <div class="col-sm-3 col-md-6 col-xl-3 bg-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Tenetur hic ad animi voluptatum quos delectus perferendis quae voluptatem quibusdam dolorem aliquam asperiores
+          ullam dicta, iusto at dolor! Necessitatibus, consequatur repellat!</div>
+        <div class="col-sm-3 col-md-6 col-xl-3 bg-primary align-self-end">Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Aliquam laboriosam, maxime atque sapiente molestiae architecto adipisci temporibus, modi
+          aspernatur amet excepturi repellendus mollitia voluptatibus laudantium fugiat. Modi minima perspiciatis
+          sapiente. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad deserunt non quae beatae aperiam
+          molestiae nihil ratione! Modi sequi aperiam veniam quasi rem dolor obcaecati, ducimus laborum esse commodi
+          laboriosam.</div>
+      </div>
+
+      <h1 class="display-4">Form</h1>
+      <form action="#">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="username">Username</label>
+            <input type="username" class="form-control" id="username" placeholder="username">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="password">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="skills">Skills</label>
+            <input type="text" class="form-control" id="skills">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="hobbies">Hobbies</label>
+            <input type="text" class="form-control" id="hobbies">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="age">Age</label>
+            <select class="form-control" name="age" id="age">
+              <option>20-29</option>
+              <option>30-39</option>
+              <option>40-49</option>
+              <option>50-59</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="file">Upload a file</label>
+          <input type="file" class="form-control-file" id="file">
+        </div>
+        <div class="form-group">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="tos">
+            <label class="custom-control-label" for="tos">I read the terms of service.</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
